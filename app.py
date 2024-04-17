@@ -1,5 +1,5 @@
 from flask import Flask, request
-from experiments.CNN import *
+from experiments.post_train import *
 
 app = Flask(__name__)
 
